@@ -1,0 +1,35 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+#back{
+    margin-bottom: 5px;
+}
